@@ -1,0 +1,91 @@
+@font-face {
+	font-family: Agrandir;
+	src: url(../fonts/Agrandir-Regular.otf);
+}
+
+
+
+/*STRUCTURE*/
+
+* {
+	font-size: 20px;
+	font-family: Agrandir;
+}
+
+.wrapper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*.layer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.layer.left {
+	background: orange;
+	color: white;
+}
+
+.layer.right {
+	background: white;
+	color: orange;
+}
+
+.layer.white {
+	position: fixed;
+	left: 50%;
+	background: white;
+}*/
+
+
+
+/*TYPOGRAPHY*/
+
+.bg-text {
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 100%;
+	margin: 0;
+
+	font-size: 23vw;
+	text-align: center;
+}
+
+.bg-text.left {
+	-webkit-text-stroke: 3px white;
+}
+
+
+
+/*IMAGE*/
+
+img.bg1,
+img.text1 {
+	display: block;
+	margin: auto;
+
+	height: 100%;
+	width: auto;
+}
+
+img.bg1 {
+	filter: hue-rotate(0deg);
+}
+
+img.text1 {
+	position: absolute;
+	top: 5%;
+	height: 95%;
+	width: auto;
+	left: calc(50% - 330px)
+}
+
+
+
